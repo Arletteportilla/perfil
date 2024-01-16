@@ -1,16 +1,23 @@
-# perfil
 
-A new Flutter project.
 
-## Getting Started
+# Documentación del Diseño de Perfil de Usuario en Flutter
 
-This project is a starting point for a Flutter application.
+## Objetivos
+- Crear una pantalla de perfil de usuario que sea intuitiva y estéticamente agradable.
+- Asegurar que la interfaz sea responsiva y se adapte a diferentes tamaños y orientaciones de pantalla.
 
-A few resources to get you started if this is your first Flutter project:
+## Uso del Contexto
+- `MediaQuery` se utiliza para obtener información sobre el tamaño y la orientación de la pantalla, lo que permite un diseño responsivo.
+- `Navigator` se usa para la navegación entre pantallas, demostrando cómo se puede manejar la navegación en Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Principios de Diseño
+- **Claridad:** La interfaz es sencilla y directa, con un enfoque claro en la información del usuario y las opciones disponibles.
+- **Consistencia:** Se mantiene un tema de colores y estilos coherente a lo largo de la aplicación.
+- **Responsividad:** La UI se ajusta para acomodar diferentes tamaños de pantalla, mejorando la experiencia del usuario en una variedad de dispositivos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Desafíos de Responsividad
+- **LayoutBuilder** se emplea para cambiar entre un diseño de fila y columna según el ancho de la pantalla.
+- El tamaño de los elementos, como la imagen del perfil, se ajusta según la orientación para mantener una apariencia equilibrada.
+
+## Conclusión
+El diseño implementado asegura que la experiencia del usuario sea agradable y funcional en una variedad de dispositivos y orientaciones.
